@@ -352,3 +352,5 @@ if smiles_input and calculate_clicked:
                 shap.plots.waterfall(explanation, show=False)
                 st.pyplot(fig, use_container_width=True)
                 plt.close(fig)
+
+st.markdown( """ <hr style="margin-top: 50px;"> <div style="text-align: center; color: #888; font-size: 13px;"> DRD2 Binding Affinity Predictor • Built by Smitha S • <a href="https://github.com/Smitha2003/drd2-ml" target="_blank"> GitHub Repository </a> </div> """, unsafe_allow_html=True )
